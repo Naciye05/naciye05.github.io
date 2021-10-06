@@ -1,0 +1,28 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: lightgray;
+}
+
+#itemText{
+	position: absolute;
+	/*display: flex;*/
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 1vw;
+	width: 72vw
+}
+
+#itemImg{
+	position: absolute;
+	right: 1vw;
+	width: 25vw;
+}
+
+#title{
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+/*	margin-top: 15px; */
+}
