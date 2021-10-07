@@ -39,7 +39,7 @@ else {
 	const iframe = document.getElementById('item');
 	iframe.src = 'items/' + item + '.txt';
 	iframe.onload = function () {
-		const file = iframe.contentDocument.body.innerHTML.split('>')[1].slice(0, -6).split('\n').join('<br>');
+		const file = iframe.contentDocument.body.innerHTML.split('>')[1].slice(0, -5).split('\n').join('<br>');
 		const text = document.getElementById('itemText')
 		text.innerHTML = file
 	}
