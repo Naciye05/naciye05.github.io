@@ -42,5 +42,6 @@ else {
 		const file = iframe.contentDocument.body.innerHTML.split('>')[1].slice(0, -5).split('\n').join('<br>');
 		const text = document.getElementById('itemText')
 		text.innerHTML = file
+		iframe.parentNode.removeChild(iframe)
 	}
 }
