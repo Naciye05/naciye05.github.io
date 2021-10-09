@@ -2,11 +2,17 @@
 	display: flex;
 	background-color: gray;
 	height: 6vh;
-	align-self: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
-#firstLogo{
-	margin-left: auto;
+#register{
+	margin: auto 2vh auto auto;
+	text-decoration: none;
+	color: black;
+	font-size: 1.6vh;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .logo{
